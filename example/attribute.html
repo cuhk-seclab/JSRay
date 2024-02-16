@@ -1,0 +1,12 @@
+<body id="main">
+</body>
+
+<script>
+  var tag = document.createElement("iframe");
+  tag.setAttribute("id", "id1");
+  tag.setAttribute(
+    "onload",
+    "document.getElementById('id1').removeAttribute('onload');"
+  );
+  document.getElementById("main").append(tag);
+</script>

@@ -1,0 +1,9 @@
+<head id="main">
+  <script>
+    var tag = document.createElement("script");
+    tag.setAttribute("id", "internal");
+    tag.innerHTML =
+      'document.getElementById("internal").remove();console.log(1);';
+    document.getElementById("main").append(tag);
+  </script>
+</head>
