@@ -1,6 +1,6 @@
 # JSRay
 
-This is the artifact for our WWW'24 paper: **Detecting and Understanding Self-Deleting JavaScript Code**.
+This is the artifact for our WWW'24 paper: **[Detecting and Understanding Self-Deleting JavaScript Code](https://dl.acm.org/doi/10.1145/3589334.3645540)**.
 
 ## Environment
 
@@ -72,11 +72,14 @@ JSRay is under [MIT License](LICENSE).
 You can find more details in our WWW'24 paper.
 
 ```
-@inproceedings{wang2024jsray,
-    title       = {Detecting and Understanding Self-Deleting JavaScript Code},
-    author      = {Xinzhe Wang, Zeyang Zhuang, Wei Meng, and James Cheng},
-    booktitle   = {Web Conference (WWW)},
-    year        = {2024}
+@inproceedings{10.1145/3589334.3645540,
+author = {Wang, Xinzhe and Zhuang, Zeyang and Meng, Wei and Cheng, James},
+title = {Detecting and Understanding Self-Deleting JavaScript Code},
+year = {2024},
+booktitle = {Proceedings of the ACM on Web Conference 2024},
+pages = {1768–1778},
+numpages = {11},
+series = {WWW '24}
 }
 ```
 
